@@ -58,4 +58,4 @@ The objective of our study is to predict the number of comment a post will get i
 
 Before performing machine learning algorithms on our data, we have to prepare it. One hot encoding was unclear for data exploration, but now we should re-encode our categorical variables to be able to process them. Also, we use standard scaling on our numerical columns, to get scaled data.
 
-To be able to get the best predictions, we try out multiple regression algorithms. For each algorithm, we perform a grid search to determine the best hyperparameters using a grid search.
+To be able to get the best predictions, we try out multiple regression algorithms. For each algorithm, we perform a grid search to determine the best hyperparameters using a grid search. XGBoost performs the best with our data, but are far from perfect : social medias can be unpredictable

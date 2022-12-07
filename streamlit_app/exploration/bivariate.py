@@ -108,7 +108,6 @@ def target_corr(df):
 
 
 def ess_corr(df):
-    st.write('Essential features squalala')
     
     pattern = ['total','last 24','last 48-24', 'first 24', 'evo 48-24']
 
